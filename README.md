@@ -20,26 +20,51 @@ git status
 git add 'README.md'  
 	#manually add the file in the git for it to track
 
-check 'git status' again:
+git status
 	#it shows you that a new file is coming up, because it hasn't been saved in the git.
 
 	#That green area shows you what's going to happen when you make a commit
 
 git commit -m 'created our first README'
-	#Now you saved the changes to the local repo
+	#Now you saved the changes to the local git repo
 
 git log
 	#to checkout your commits
 
+------------------------------------------------------
+#how to save our changes of repo into git using commit?
+----------------------------------------------------
 
-#Now make some changes in your 'README.md' file
+#make some changes in the 'README' file and save it
 
 git status
-	#it tell you that file has been modified
+	#it tell you that file has been modified because it is keeping track of your file
 
 git add
-	#add the modified file to git
+	#add the modified file to git for telling git which changes to include in the 'git commit' command 
 
 git commit -m 'notes on git work flow'
+	#save the changes in your local git repo
 
+------------------------------------------------------
+#What is branch and How to work with them or use them?
+-----------------------------------------------------
 
+-> Branch: copy/duplicate of your repo to work knowing that your original repo is saved in master branch.	
+
+git branch develop
+	#creates a branch develop
+
+git branch
+	#show all the branch
+
+git checkout develop
+	#switch to 'develop' branch
+
+#make some changes in the 'README' file
+->Now we are on develop branch 
+
+git status
+	
+git commit -am ''
+	
