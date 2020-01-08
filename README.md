@@ -69,3 +69,7 @@ git status
 git commit -am ''
 	a - add
 	
+git checkout -b feature/new-feature
+	it creates 'feature/new-feature' branch and switch to that branch.
+
+------------------------------------------------------ 
