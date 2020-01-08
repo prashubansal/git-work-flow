@@ -74,8 +74,20 @@ git checkout -b feature/new-feature
 
 ------------------------------------------------------#How to merge the branches?
 ------------------------------------------------------
-
 git merge feature/new-feature
 	#merges the 'feature' branch in to the 'develop' branch
 
+------------------------------------------------------
+#What is git-flow
+----------------------------------------------------
+->git-flow: helpful in using the git by conventional way
+
+apt install git-flow
+
+#initialize the git flow on specific repo
+git flow init -d 
+	d - use default settings of git flow
+
+git flow feature finish new-feature
+	#merge the 'feature' branch in your current working branch and remove 'feature' branch
 
