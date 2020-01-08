@@ -92,3 +92,41 @@ git flow init -d
 git flow feature finish new-feature
 	#merge the 'feature' branch in your current working branch and remove 'feature' branch
 
+------------------------------------------------------
+#git flow feature branch and pushing to gihub
+------------------------------------------------------
+
+git flow feature start a-new-feature
+	#creates a new branch(a-new-feature) and prefix it with feature
+
+#Now you can create a new file in 'feature/a-new-feature' branch and it doesn't mess with develop branch 
+
+git status
+	#tells you that you have a new file to add in this branch
+
+git add -A
+	
+git commit -am 'new file added'
+
+-----------------------------------------------------
+#Now we are going to publish our repo in github
+---------------------------------------------------
+
+			create a new repo
+					|
+			write a repo_name
+					|
+			click create repo
+					|
+			copy the git-link
+
+git remote add origin <git-link>
+	#creates a repo/cloud-storage on github
+
+git remote -v 
+	#list out the origin that i just added
+
+git checkout master
+
+git push origin master
+	#push master branch up into our repo into github/allows us to share our work in public.
