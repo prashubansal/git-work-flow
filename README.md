@@ -72,7 +72,8 @@ git commit -am ''
 git checkout -b feature/new-feature
 	it creates 'feature/new-feature' branch and switch to that branch.
 
-------------------------------------------------------#How to merge the branches?
+------------------------------------------------------
+#How to merge the branches?
 ------------------------------------------------------
 git merge feature/new-feature
 	#merges the 'feature' branch in to the 'develop' branch
