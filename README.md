@@ -67,4 +67,5 @@ git checkout develop
 git status
 	
 git commit -am ''
+	a - add
 	
