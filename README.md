@@ -130,3 +130,10 @@ git checkout master
 
 git push origin master
 	#push master branch up into our repo into github/allows us to share our work in public.
+
+git push origin develop
+	#push develop branch up into github
+
+#push feature(a-new-feature) branch using 'git flow'
+
+git flow feature publish a-new-feature	
