@@ -1,9 +1,9 @@
 # This is my first line 
 
 No one ever reads the readme file 
---------
-How to create git repo, create your 'README.md' file and get track of it
----------
+-----------------------------------------------------
+#How to create git repo, create your 'README.md' file and get track of it
+------------------------------------------------------
 
 git config --global user.name 'author_name'
 git config --global user.email 'author_email'
@@ -72,4 +72,10 @@ git commit -am ''
 git checkout -b feature/new-feature
 	it creates 'feature/new-feature' branch and switch to that branch.
 
------------------------------------------------------- 
+------------------------------------------------------#How to merge the branches?
+------------------------------------------------------
+
+git merge feature/new-feature
+	#merges the 'feature' branch in to the 'develop' branch
+
+
